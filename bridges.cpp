@@ -39,8 +39,8 @@ vector<vector<int>> criticalConnections(vector<int> adj[],int node,int edges){
                 }
             }
         }
-       adj[u].push_back(v);
-       adj[v].push_back(u);
+    adj[u].push_back(v);
+    adj[v].push_back(u);
 
     }
 
